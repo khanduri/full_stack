@@ -1,0 +1,40 @@
+.rc-pagination-item {
+  border: none;
+  color: black;
+}
+
+.rc-pagination-item:hover {
+  background-color: #e0e0e0;
+}
+
+.rc-pagination-item-active {
+  background-color: #fdc936;
+  color: white;
+}
+
+.rc-pagination-item-active:hover {
+  background-color: #fdc936;
+  color: white;
+}
+
+.rc-pagination-prev,
+.rc-pagination-next {
+  border: none;
+}
+.rc-pagination-prev .rc-pagination-item-link,
+.rc-pagination-next .rc-pagination-item-link {
+  border: none;
+  background-color: #edf5f6;
+}
+.rc-pagination-item-active a {
+  color: white;
+}
+.rc-pagination-item-active a:hover {
+  color: white;
+}
+.rc-pagination-item-active a:active {
+  color: white;
+}
+.rc-pagination-item-active a:focus {
+  color: white;
+}
